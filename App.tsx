@@ -7,7 +7,7 @@ import {
   X, 
   ShieldCheck, 
   Award, 
-  Stethoscope,
+  Stethoscope, 
   Calendar,
   ArrowRight
 } from 'lucide-react';
@@ -191,7 +191,7 @@ const App: React.FC = () => {
 
               {/* Info Grid - Bento Box Style */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-fade-in-up delay-200">
-                <div className="bg-medical-900 text-white p-6 md:p-8 rounded-3xl sm:col-span-2 shadow-xl shadow-medical-900/10">
+                <div id="ordination" className="bg-medical-900 text-white p-6 md:p-8 rounded-3xl sm:col-span-2 shadow-xl shadow-medical-900/10 scroll-mt-32">
                   <div className="flex items-center gap-3 mb-6">
                     <Calendar className="text-medical-200" />
                     <h3 className="font-display text-xl font-bold">Ordinationszeiten</h3>

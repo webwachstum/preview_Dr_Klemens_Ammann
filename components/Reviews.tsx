@@ -50,7 +50,6 @@ export const Reviews: React.FC<ReviewsProps> = ({ reviews }) => {
                 </div>
                 <div className="flex justify-between items-end">
                   <span className="font-medium text-slate-900 block">{review.author}</span>
-                  <span className="text-sm text-slate-400">{review.date}</span>
                 </div>
               </div>
             </div>
